@@ -1,0 +1,98 @@
+.navbar-brand {
+    height: 13vh;
+    width:auto;
+    padding:5px 5px 0px 15px;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+}
+
+.gutter {
+    padding:0;
+    margin:0;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background: rgb(15, 15, 15);
+}
+
+#about {
+    background-image: url("/images/about.jpg");
+    background-size: 100%;
+    width:auto;
+    height:100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.about {
+    border: 3px solid white;
+    color:white;
+    padding: 0px 20px 0px 20px;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.856);
+}
+
+.about p {
+    margin-bottom:5px;
+}
+
+.about h1 {
+    margin-top:15px;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.navbar-inverse {
+    background-color: rgb(15, 15, 15);
+}
+
+.btn-collapse {
+    width:100%;
+    background-color: rgb(15, 15, 15);
+    border: 0px;
+    border-radius: 0%;
+    color:rgba(255, 255, 255, 0.856);
+}
+
+.btn-collapse:hover, .btn-collapse:active, .btn-collapse:focus{
+    width:100%;
+    background-color: rgb(0, 0, 0) !important;
+    border: 0px !important;
+    border-radius: 0%;
+    color:white !important;
+}
+
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3 {
+    padding:10px;
+}
+#contact {
+    color:rgba(255, 255, 255, 0.856);
+}

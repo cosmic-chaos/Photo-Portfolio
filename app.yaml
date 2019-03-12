@@ -1,0 +1,27 @@
+runtime: php55
+api_version: 1
+
+handlers:
+
+- url: /
+  script: index.html
+
+- url: /index\.html
+  script: index.html
+
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /images
+  static_dir: images
+  
+- url: /studio
+  static_dir: studio
+- url: /field
+  static_dir: field
+- url: /nature
+  static_dir: nature
+  
+  
+- url: /.*
+  script: 404.html

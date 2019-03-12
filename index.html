@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Photo Portfolio</title>
+  <link rel="icon" href="images/icon.png"/>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="stylesheets/art.css">
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50" >
+
+<!--navigation-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <img class="navbar-brand" src="images/logo.png" alt="KATYA BEZUGLA"/>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#studio">STUDIO</a></li>
+            <li><a href="#field">FIELD</a></li>
+            <li><a href="#nature">NATURE</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!--ABOUT-->
+<div id="about" class="container text-center">
+    <div class="about">
+        <h1>ABOUT ME</h1>
+        <p>As part of IMSA Student Productions, <br>
+            I've been taking photos for nearly 3 years. <br>
+            Here are but a few.<br>
+            <a class="down-arrow" href="#studio" data-toggle="tooltip">
+                <span class="glyphicon glyphicon-chevron-down"></span>
+            </a>
+        </p>
+    </div>
+</div>
+
+<!--STUDIO-->
+<div id="studio" class="row">
+    <div class="col-sm-4 gutter">
+        <img href="#myModal" data-toggle="modal" src="/studio/slide1.jpg"/>
+    </div> 
+    <div class="col-sm-4 gutter">       
+        <img href="#myModal" data-toggle="modal" src="/studio/slide2.jpg"/>
+    </div>
+    <div class="col-sm-4 gutter">
+        <img href="#myModal" data-toggle="modal" src="/studio/slide3.jpg"/>
+    </div>
+</div>
+<button type="button" class="btn btn-info btn-collapse" data-toggle="collapse" data-target="#studio-col">Show More</button>
+<div id="studio-col" class="collapse">
+    <div class="row">
+        <div class="col-sm-3 gutter">
+            <img href="#myModal" data-toggle="modal" src="studio/slide4.jpg"/>
+        </div> 
+        <div class="col-sm-3 gutter">       
+            <img href="#myModal" data-toggle="modal" src="studio/slide5.jpg"/>
+        </div>
+        <div class="col-sm-3 gutter">
+            <img href="#myModal" data-toggle="modal" src="studio/slide6.jpg"/>
+        </div>
+        <div class="col-sm-3 gutter">
+            <img href="#myModal" data-toggle="modal" src="studio/slide7.jpg"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3 gutter">
+            <img href="#myModal" data-toggle="modal" src="studio/slide8.jpg"/>
+        </div> 
+        <div class="col-sm-3 gutter">       
+            <img href="#myModal" data-toggle="modal" src="studio/slide9.jpg"/>
+        </div>
+        <div class="col-sm-3 gutter">
+            <img href="#myModal" data-toggle="modal" src="studio/slide10.jpg"/>
+        </div>
+        <div class="col-sm-3 gutter">
+            <img href="#myModal" data-toggle="modal" src="studio/slide11.jpg"/>
+        </div>
+    </div>
+    <br>
+</div>
+
+<!--FIELD-->
+<div id="field" class="row">
+    <div class="col-sm-4 gutter">
+        <img href="#myModal" data-toggle="modal" src="field/slide1.jpg"/>
+    </div> 
+    <div class="col-sm-4 gutter">       
+        <img href="#myModal" data-toggle="modal" src="field/slide2.jpg"/>
+    </div>
+    <div class="col-sm-4 gutter">
+        <img href="#myModal" data-toggle="modal" src="field/slide3.jpg"/>
+    </div>
+</div>
+<button type="button" class="btn btn-info btn-collapse" data-toggle="collapse" data-target="#field-col">Show More</button>
+<div id="field-col" class="collapse">
+    <div class="row">
+        <div class="col-sm-4 gutter">
+            <img href="#myModal" data-toggle="modal" src="field/slide4.jpg"/>
+        </div> 
+        <div class="col-sm-4 gutter">       
+            <img href="#myModal" data-toggle="modal" src="field/slide5.jpg"/>
+        </div>
+        <div class="col-sm-4 gutter">
+            <img href="#myModal" data-toggle="modal" src="field/slide6.jpg"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 gutter">
+            <img href="#myModal" data-toggle="modal" src="field/slide7.jpg"/>
+        </div> 
+        <div class="col-sm-4 gutter">       
+            <img href="#myModal" data-toggle="modal" src="field/slide8.jpg"/>
+        </div>
+        <div class="col-sm-4 gutter">
+            <img href="#myModal" data-toggle="modal" src="field/slide9.jpg"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 gutter">
+            <img href="#myModal" data-toggle="modal" src="field/slide10.jpg"/>
+        </div> 
+        <div class="col-sm-4 gutter">       
+            <img href="#myModal" data-toggle="modal" src="field/slide11.jpg"/>
+        </div>
+        <div class="col-sm-4 gutter">
+            <img href="#myModal" data-toggle="modal" src="field/slide12.jpg"/>
+        </div>
+    </div>
+    <br>
+</div>
+
+<!--NATURE-->
+<div id="nature" class="row">
+        <div class="col-sm-4 gutter">
+            <img href="#myModal" data-toggle="modal" src="nature/slide1.jpg"/>
+        </div> 
+        <div class="col-sm-4 gutter">       
+            <img href="#myModal" data-toggle="modal" src="nature/slide2.jpg"/>
+        </div>
+        <div class="col-sm-4 gutter">
+            <img href="#myModal" data-toggle="modal" src="nature/slide3.jpg"/>
+        </div>
+    </div>
+    <button type="button" class="btn btn-info btn-collapse" data-toggle="collapse" data-target="#nature-col">Show More</button>
+    <div id="nature-col" class="collapse">
+        <div class="row">
+            <div class="col-sm-3 gutter">
+                <img href="#myModal" data-toggle="modal" src="nature/slide4.jpg"/>
+            </div> 
+            <div class="col-sm-3 gutter">       
+                <img href="#myModal" data-toggle="modal" src="nature/slide5.jpg"/>
+            </div>
+            <div class="col-sm-3 gutter">
+                <img href="#myModal" data-toggle="modal" src="nature/slide6.jpg"/>
+            </div>
+            <div class="col-sm-3 gutter">
+                <img href="#myModal" data-toggle="modal" src="nature/slide7.jpg"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 gutter">
+                <img href="#myModal" data-toggle="modal" src="nature/slide8.jpg"/>
+            </div> 
+            <div class="col-sm-4 gutter">       
+                <img href="#myModal" data-toggle="modal" src="nature/slide9.jpg"/>
+            </div>
+            <div class="col-sm-4 gutter">
+                <img href="#myModal" data-toggle="modal" src="nature/slide10.jpg"/>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <!--CONTACT-->
+    <br><br>
+    <div id="contact" class="container">
+        
+        <div class="row">
+            <div class="col-md-4 center">
+                <p>Find me at:</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+                <p><span class="glyphicon glyphicon-phone"></span> Instagram: earth.gazer</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> Email: katyabezugla@gmail.com</p>
+            </div>
+            <div class="col-md-8">
+                <div class = "row">
+                    <h3 class="col-sm-8">Photography Request</h3>
+                </div>
+                <div class="row">
+                <div class="col-sm-6 form-group">
+                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <input class="form-control" id="email" name="email" placeholder="Email" type="email"  required>
+                </div>
+                </div>
+                <textarea class="form-control" id="request" name="request" placeholder="Request" rows="15" ></textarea>
+                <br>
+                <div class="row">
+                <div class="col-md-12 form-group">
+                    <button class="btn pull-right" type="submit">Send</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <br><br>
+    <footer class="text-center">
+        <a class="up-arrow" href="#about" data-toggle="tooltip">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a><br><br>
+    </footer>
+    <!--Modal-->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="img-responsive" src="" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+        // Initialize Tooltip
+			$('[data-toggle="tooltip"]').tooltip(); 
+
+			$('img').on('click', function () {
+				//source: https://stackoverflow.com/questions/33838977/how-to-use-bootstrap-modal-on-multiple-images-on-same-page-on-image-click
+				var image = $(this).attr('src');
+				$('#myModal').on('show.bs.modal', function () {
+					$(".img-responsive").attr("src", image);
+				});
+			});
+        
+        // Add smooth scrolling to all links in navbar + footer link
+			$(".navbar a,.about a[href='#studio'], footer a[href='#about']").on('click', function(event) {
+
+				// Make sure this.hash has a value before overriding default behavior
+				if (this.hash !== "") {
+
+					// Prevent default anchor click behavior
+					event.preventDefault();
+
+					// Store hash
+					var hash = this.hash;
+
+					// Using jQuery's animate() method to add smooth page scroll
+					// The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 900, function(){
+				
+						// Add hash (#) to URL when done scrolling (default click behavior)
+						window.location.hash = hash;
+					});
+				} // End if
+			});
+        })
+    </script>
+
+</body>
+</html>
